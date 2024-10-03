@@ -1,8 +1,13 @@
 # api de crypto moeda assincrona com fastapi
 cadastra um usuario de forma simples sem autenticacao adiciona moedas favoritas e traz uma cotacao do dia anterior de todas moedas favoritas
 
-### bibliotecas
- python = "^3.12"
+### dependencias
+
+python 3.12
+
+poetry
+
+### bibliotecas utilizadas
 
 * fastapi = "^0.115.0"
 
@@ -15,4 +20,14 @@ cadastra um usuario de forma simples sem autenticacao adiciona moedas favoritas 
 *  aiohttp = "^3.10.8"
 
 ### como rodar
+
+` git clone https://github.com/Romariolima1998/fastapi_crypto.git `
+
+` cd fastapi_crypto `
+
+` poetry install `
+
+` cd crypto `
+
+` uvicorn main:api --port 8000 `
 
